@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>D3Graph</title>
+	<script src='cytoscape.js'></script>
+	<script src='jquery-3.2.1.min.js'></script>
+</head>
+
+<style>
+	#cy{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+</style>
+
+<body>
+	<div id="cy"></div>
+	<script type="text/javascript">
+		var myObject={};
+		var cy;
+		var lsnjson="graphdata.json";
+		var layoutPadding = 50;
+		var aniDur = 500;
+		var easing = 'linear';
+
+		var cy;
+		var nodeselected;
+		var allNodes = null;
+		var allEles = null;
+		var lastHighlighted = null;
+		var lastUnhighlighted = null;
+		var node;
+
+		function initCytoscape(){
+			cy=cytoscape({
+				container: document.getElementById("cy"),
+				elements:[],
+				style: [
+				{
+					selector: 'node',
+					style: {
+						shape: 'hexagon',
+						'background-color': 'grey',
+						label: 'data(title)'
+					}
+				},
+				{
+					selector: 'node.faded',
+					style: {
+						opacity: '0.1'
+					}
+				},
+				{
+					selector: 'edge.faded',
+					style: {
+						opacity: '0.1'
+					}
+				},
+				{
+					selector: 'node.highlighted',
+					style: {
+						opacity: '1',
+						'min-zoomed-font-size': 0,
+						'z-index': 9999,
+						'text-background-opacity': 1,
+						'text-background-color': '#FFF',
+						'text-background-shape': 'roundrectangle',
+						'text-border-color': '#000',
+						'text-border-width': 0.5,
+						'text-border-opacity': 1,
+						'text-background-padding':5
+					}
+				},
+				{
+					selector: 'edge.highlighted',
+					style: {
+						opacity: '1',
+						width: '4',
+						'z-index': 9999
+					}
+				},
+				{
+					selector: 'edge',
+					style: {
+						'width': 3,
+						'target-arrow-shape': 'triangle',
+						'arrow-scale':2,
+						'curve-style': 'bezier'
+					}
+				},
+				{
+					selector: '.helightstyle',
+					style: {
+						'line-color': 'blue',
+						'background-color': 'blue'
+					/*	'text-background-opacity': 1,
+						'text-background-color': '#ccc',
+						'text-background-shape': 'roundrectangle',
+						'text-border-color': '#FFF',
+						'text-border-width': 1,
+						'text-border-opacity': 1*/
+
+					}
+				},
+				{
+					selector: '.unhelightstyle',
+					style: {
+						'line-color': 'grey',
+						'background-color': 'red',
+					}
+				}
+				,
+				{
+					selector: '.endnode',
+					style: {
+						'line-color': 'grey',
+						'background-color': 'darkgreen',
+					}
+				},
+				{
+					selector: '.nonodes',
+					style: {
+						'line-color': 'grey',
+						'background-color': 'darkblue',
+					}
+				},
+				{
+					selector: '.hasnodes',
+					style: {
+						'line-color': 'grey',
+						'background-color': 'red',
+					}
+				},
+				{
+					selector:  '.hidden',
+					style: {
+						display: 'none'
+					}
+				}
+				]
+			})
+
+			allNodes = cy.nodes();
+			allEles = cy.elements();
+
+			cy.on('select unselect', 'node', function(e){
+				node = cy.$('node:selected');
+				//cy.elements().hide();
+				je = cy.$('#'+this.id());
+				je.classes('hilightstyle')
+				//je.show();
+				var valedata=je.incomers();
+				cy.elements().removeClass('faded highlighted nonodes hasnodes');
+				allEles.removeClass('highlighted');
+				valedata.addClass('highlighted');
+				node.addClass('highlighted');
+
+				if(je.incomers().length>0){
+					for(var i=0;i<je.incomers().length;i++){
+						if(cy.$('#'+je.incomers()[i].id()).isNode()){
+							if(cy.$('#'+je.incomers()[i].id()).incomers().length==0){
+								cy.$('#'+je.incomers()[i].id()).addClass('nonodes');
+							}else{
+								cy.$('#'+je.incomers()[i].id()).addClass('hasnodes');
+								
+							}
+						}
+					}
+					je.addClass('hasnodes');
+				}else{
+					je.addClass('nonodes');
+				}
+				
+				
+				var others=cy.elements().not(valedata);
+				others.addClass('faded');
+
+			}, 100 );
+		}
+
+		var getjsonMarker=$.getJSON(lsnjson, function (data) {
+			initCytoscape()
+			cy.add(data.elements.nodes);
+			cy.add(data.elements.edges);
+			cy.layout({
+				name: 'random'
+			}).run();
+		});
+	</script>
+</body>
+</html>
