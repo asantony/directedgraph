@@ -249,5 +249,6 @@ function myFunction() {
 		}
 	}else{
 		cy.elements().removeClass('faded highlighted nonodes hasnodes');
+		console.log("I've chagned the files")
 	}
 }
