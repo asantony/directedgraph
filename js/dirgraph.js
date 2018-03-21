@@ -122,18 +122,17 @@ function initCytoscape(){
 			})
 
 	allNodes = cy.nodes();
-	console.log("allNodes", allNodes);
 	allEles = cy.elements();
 
 	cy.on('select unselect', 'node', function(e){
 			document.getElementById("myInput").value="";
 			cy.elements().removeClass('faded highlighted nonodes hasnodes');
 				node = cy.$('node:selected');
-				console.log("node", node);
+				//console.log("node", node);
 				//cy.elements().hide();
 				je = cy.$('#'+this.id());
-				console.log("this.id()", this.id());
-				console.log("je", je.data('title'));
+				//console.log("this.id()", this.id());
+				//console.log("je", je.data('title'));
 
 				je.classes('hilightstyle')
 				//je.show();
