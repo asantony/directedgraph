@@ -1,19 +1,13 @@
 body{
 	background-color: #f5f5f5!important;
 }
-#header{
-	display: block;
-	float: left;
-	height: 10%;
-	background-color: #043f83;
-    width: 100%;
-}
-#logoimg{
+
+/*#logoimg{
 	float: left;
 }
 #dg{
 	float: left;
-}
+}*/
 #cy{
 	width: 100%;
 	height: 90%;
@@ -25,11 +19,14 @@ body{
 }
 
 #myInput {
-  background-image: url('/css/searchicon.png');
+  //background-image: url('/css/searchicon.png');
   background-position: 10px 12px;
   background-repeat: no-repeat;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
-  margin-bottom: 12px;
+ // margin-bottom: 12px;
+}
+#filter{
+    margin-top: 9px !important;
 }

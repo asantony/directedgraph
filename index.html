@@ -4,15 +4,68 @@
 	<title>D3Graph</title>
 	<script src='js/cytoscape.js'></script>
 	<script src='js/jquery-3.2.1.min.js'></script>
+	<script src='js/bootstrap.min.js'></script>
 	<script src='js/dirgraph.js'></script>
+
+  <meta property="og:image" content="https://codepen.io/bseth99/pen/fboKH/image/large.png" itemprop="thumbnailUrl">
 	<link rel="stylesheet" href="css/cystoscapestyle.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-	<div id="header" class="container">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+		<object id="logoimg" type="image/svg+xml" data="images/H-logo.svg">Your browser does not support SVG</object>
+			<a class="navbar-brand" href="#" style="margin-left: 15px;">Directed Graph</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Refresh
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item" id="filter">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="button-group">
+										<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+										<ul class="dropdown-menu">
+											<li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 1</a></li>
+											<li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 2</a></li>
+											<li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 3</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<div class="right-inner-addon">
+							<!-- <i class="icon-search"></i> -->
+							<input type="search"
+							class="form-control" 
+							placeholder="Search" id="myInput" onkeyup="myFunction()" onchange="makeempty"/>
+						</div>
+						<!--  <input class="form-control" type="text" id="myInput" onkeyup="myFunction()" onchange="makeempty" placeholder="Search for names.." title="Type in a name"> -->
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid" id="header">
+		<div id="cy"></div>
+	</div>
+
+<!-- 	<div id="header" class="container">
 		<object id="logoimg" type="image/svg+xml" data="images/H-logo.svg">Your browser does not support SVG</object>
 		<a style="padding-left:15px;float:left;margin-top:8px;color:#fff!important; font-size:20px" id="signout" >Directed Graph</a>
 		<input style="padding-left:15px;float:right;margin-top:8px; font-size:20px" type="text" id="myInput" onkeyup="myFunction()" onchange="makeempty" placeholder="Search for names.." title="Type in a name">
-	</div>
-	<div id="cy"></div>
+	</div> -->
+	
 </body>
 </html>
