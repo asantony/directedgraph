@@ -184,6 +184,7 @@ function myFunction() {
 	input = document.getElementById("myInput");
 	filter = input.value.toUpperCase();
 	var totalNodes=jsondata.elements.nodes;
+	console.log("totalNodes", totalNodes);
 	cy.elements().removeClass('faded highlighted nonodes hasnodes');
 	if(filter.length>0){
 		filteredIncomers=[]
