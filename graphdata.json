@@ -4,12 +4,14 @@
             { 
                 "data":{
                     "id":0,
+                    "NodeType" : "class1",
                     "title":"Counting Objects Arranged in an organised manner nnn"
                  }
             },
             { 
                  "data":{
                     "id":1,
+                    "NodeType" : "class1",
                     "title":"Counting Objects Placed in Random Order"
                     
                  }
@@ -17,393 +19,525 @@
               { 
                  "data":{  
                     "id":2,
+                    "NodeType" : "class1",
                     "title":"Counting Forwards in 5s upto 999 starting with multiples of 5"
                  }
               },
               { 
                  "data":{  
                     "id":3,
+                    "NodeType" : "class1",
                     "title":"Counting Forwards in 2s upto 999 starting with multiples of 2"
                  }
               },
               { 
                  "data":{  
                     "id":4,
+                    "NodeType" : "class1",
                     "title":"Counting Forwards in 3s upto 999 starting with multiples of 3"
                  }
               },
               { 
                  "data":{  
                     "id":5,
+                    "NodeType" : "class1",
                     "title":"Counting Forwards in 10s upto 999 starting with multiples of 10"
                  }
               },
               { 
                  "data":{  
                     "id":6,
+                    "NodeType" : "class1",
                     "title":"Counting Objects in Groups"
                  }
               },
               { 
                  "data":{  
                     "id":7,
+                    "NodeType" : "class1",
                     "title":"Counting Forwards in 1s upto 999"
                  }
               },
               { 
                  "data":{  
                     "id":8,
+                    "NodeType" : "class1",
                     "title":"Counting Forwards in 4s upto 999 starting with multiples of 4"
                  }
               },
               { 
                  "data":{  
                     "id":9,
+                    "NodeType" : "class1",
                     "title":"Counting Forwards in 100s upto 999 starting with multiples of 100"
                  }
               },
               { 
                  "data":{  
                     "id":10,
+                    "NodeType" : "class1",
                     "title":"Counting Forwards in 20s, 25s, 50s upto 999 starting with the corresponding multiples"
                  }
               },           
               { 
                  "data":{  
                     "id":11,
+                    "NodeType" : "class1",
                     "title":"Counting Backwards in 1s upto 999"
                  }
               },
               { 
                  "data":{  
                     "id":12,
+                    "NodeType" : "class1",
                     "title":"Counting Backwards in 10s upto 999 starting with multiples of 10"
                  }
               },
               { 
                  "data":{  
                     "id":13,
+                    "NodeType" : "class1",
                     "title":"Counting Backwards in 5s upto 999 starting with multiples of 5"
                  }
               },
               { 
                  "data":{  
                     "id":14,
+                    "NodeType" : "class1",
                     "title":"Counting Backwards in 2s upto 999 starting with multiples of 2"
                  }
               },
               { 
                  "data":{  
                     "id":15,
+                    "NodeType" : "class1",
                     "title":"Counting Backwards in 3s upto 999 starting with multiples of 3"
                  }
               },
               { 
                  "data":{  
                     "id":16,
+                    "NodeType" : "class1",
                     "title":"Counting Backwards in 4s upto 999 starting with multiples of 4"
                  }
               },
               { 
                  "data":{  
                     "id":17,
+                    "NodeType" : "class1",
                     "title":"Counting Backwards in 100s upto 999 starting with multiples of 100"
                  }
               },
               { 
                  "data":{  
                     "id":18,
+                    "NodeType" : "class1",
                     "title":"Read and Write number symbols upto 999"
                  }
               },
               { 
                  "data":{  
                     "id":19,
+                    "NodeType" : "class1",
                     "title":"Counting Backwards in 20s, 25s, 50s upto 999 starting with the corresponding multiples"
                  }
               },
               { 
                  "data":{  
                     "id":20,
+                    "NodeType" : "class1",
                     "title":"Read and Write number names upto 999"
                  }
               },
               { 
                  "data":{  
                     "id":21,
+                    "NodeType" : "class1",
                     "title":"Represent Numbers upto 999 using Models"
                  }
               },
               { 
                  "data":{  
                     "id":22,
+                    "NodeType" : "class1",
                     "title":"Identifying the place value of each digit in a number upto 999"
                  }
               },
               { 
                  "data":{  
                     "id":23,
+                    "NodeType" : "class1",
                     "title":"Decomposing numbers upto 999"
                  }
               },
               { 
                  "data":{  
                     "id":24,
+                    "NodeType" : "class1",
                     "title":"Comparing whole numbers upto 999"
                  }
               },
               { 
                  "data":{  
                     "id":25,
+                    "NodeType" : "class1",
                     "title":"Ordering whole numbers upto 999"
                  }
               },
               { 
                  "data":{  
                     "id":26,
+                    "NodeType" : "class1",
                     "title":"Read and Write Ordinal Numbers upto 31stept"
                  }
               },
               { 
                  "data":{  
                     "id":27,
+                    "NodeType" : "class1",
                     "title":"Number bonds upto 30"
                  }
               },
               { 
                  "data":{  
                     "id":28,
+                    "NodeType" : "class1",
                     "title":"Addition and Subtraction Facts"
                  }
               },
               { 
                  "data":{  
                     "id":29,
+                    "NodeType" : "class1",
                     "title":"Adding numbers which are multiples of 10 upto 100"
                  }
               },
               { 
                  "data":{  
                     "id":30,
+                    "NodeType" : "class1",
                     "title":"Adding numbers upto 999 with regrouping"
                  }
               },
               { 
                  "data":{  
                     "id":31,
+                    "NodeType" : "class1",
                     "title":"Adding numbers upto 999 without regrouping"
                  }
               },
               { 
                  "data":{  
                     "id":32,
+                    "NodeType" : "class1",
                     "title":"Writing Addition Sentences"
                  }
               },
               { 
                  "data":{  
                     "id":33,
+                    "NodeType" : "class1",
                     "title":"Word Problems Involving Addition of Numbers upto 999"
                  }
               },
               { 
                  "data":{  
                     "id":34,
+                    "NodeType" : "class1",
                     "title":"Understanding Properties of Addition"
                  }
               },
               { 
                  "data":{  
                     "id":35,
+                    "NodeType" : "class1",
                     "title":"Subtracting numbers which are multiples of 10 upto 100"
                  }
               },
               { 
                  "data":{  
                     "id":36,
+                    "NodeType" : "class1",
                     "title":"Subtracting numbers upto 999 without regrouping"
                  }
               },
               { 
                  "data":{  
                     "id":37,
+                    "NodeType" : "class1",
                     "title":"Subtracting numbers upto 999 with regrouping"
                  }
               },
               { 
                  "data":{  
                     "id":38,
+                    "NodeType" : "class1",
                     "title":"Writing Subtraction Sentences"
                  }
               },
               { 
                  "data":{  
                     "id":39,
+                    "NodeType" : "class1",
                     "title":"Word Problems Involving Subtraction of Numbers upto 999"
                  }
               },
               { 
                  "data":{  
                     "id":40,
+                    "NodeType" : "class1",
                     "title":"Understanding Properties of Subtraction"
                  }
               },
               { 
                  "data":{  
                     "id":41,
+                    "NodeType" : "class1",
                     "title":"Multiplication by Repeated Addition upto 100"
                  }
               },
               { 
                  "data":{  
                     "id":42,
+                    "NodeType" : "class1",
                     "title":"Multiplication as an Array of Objects"
                  }
               },
               { 
                  "data":{  
                     "id":43,
+                    "NodeType" : "class1",
                     "title":"Multiplying Numbers by 2, 3, 4, 5 with Answers upto 100"
                  }
               },
               { 
                  "data":{  
                     "id":44,
+                    "NodeType" : "class1",
                     "title":"Multiplying Numbers by 10 with Answers upto 100"
                  }
               },
               { 
                  "data":{  
                     "id":45,
+                    "NodeType" : "class1",
                     "title":"Writing Multiplication Sentences"
                  }
               },
               { 
                  "data":{  
                     "id":46,
+                    "NodeType" : "class1",
                     "title":"Word Problems involving Multiplication with answers up to 100"
                  }
               },
               { 
                  "data":{  
                     "id":47,
+                    "NodeType" : "class1",
                     "title":"Grouping and Sharing upto 100 without remainder"
                  }
               },
               { 
                  "data":{  
                     "id":48,
+                    "NodeType" : "class1",
                     "title":"Grouping and Sharing upto 100 with remainder"
                  }
               },
               { 
                  "data":{  
                     "id":49,
+                    "NodeType" : "class1",
                     "title":"Division by Repeated Subtraction"
                  }
               },
               { 
                  "data":{  
                     "id":50,
+                    "NodeType" : "class1",
                     "title":"Division as the Reverse Process of Multiplication"
                  }
               },
               { 
                  "data":{  
                     "id":51,
+                    "NodeType" : "class1",
                     "title":"Multiplication and Division Facts"
                  }
               },
               { 
                  "data":{  
                     "id":52,
+                    "NodeType" : "class1",
                     "title":"Dividing Numbers up to 100 by 2, 3,\n 4, 5"
                  }
               },
               { 
                  "data":{  
                     "id":53,
+                    "NodeType" : "class1",
                     "title":"Dividing Numbers up to 100 by 10"
                  }
               },
               { 
                  "data":{  
                     "id":54,
+                    "NodeType" : "class1",
                     "title":"Writing Division Sentences"
                  }
               },
               { 
                  "data":{  
                     "id":55,
+                    "NodeType" : "class1",
                     "title":"Word Problems involving Division"
                  }
               },
               { 
                  "data":{  
                     "id":56,
+                    "NodeType" : "class1",
                     "title":"Recognising Fractions as Part of a Whole upto eighths"
                  }
               },
               { 
                  "data":{  
                     "id":57,
+                    "NodeType" : "class1",
                     "title":"Recognising Fractions as Part of a Collection"
                  }
               },
               { 
                  "data":{  
                     "id":58,
+                    "NodeType" : "class1",
                     "title":"Equivalent Fractions"
                  }
               },
               { 
                  "data":{  
                     "id":59,
+                    "NodeType" : "class1",
                     "title":"Word Problems Involving Equal Sharing Leading to Fractions"
                  }
               },
               { 
                  "data":{  
                     "id":60,
+                    "NodeType" : "class1",
                     "title":"Word Problems Involving Fraction of a Collection"
                  }
               },
               { 
                  "data":{  
                     "id":61,
+                    "NodeType" : "class1",
                     "title":"Word Problems on Putting Fractions Together"
                  }
               },
               { 
                  "data":{  
                     "id":62,
+                    "NodeType" : "class1",
                     "title":"Identifying bank notes and coins"
                  }
               },
               { 
                  "data":{  
                     "id":63,
+                    "NodeType" : "class1",
                     "title":"Conversion of Money"
                  }
               },
               { 
                  "data":{  
                     "id":64,
+                    "NodeType" : "class1",
                     "title":"Adding and Subtracting Money"
                  }
               },
               { 
                  "data":{  
                     "id":65,
+                    "NodeType" : "class1",
                     "title":"Word Problems involving Money"
+                 }
+              }, 
+              { 
+                 "data":{  
+                    "id":66,
+                    "NodeType" : "class2",
+                    "title":"class2 Word Problems on Putting Fractions Together"
+                 }
+              },
+              { 
+                 "data":{  
+                    "id":67,
+                    "NodeType" : "class2",
+                    "title":"class2 Identifying bank notes and coins"
+                 }
+              },
+              { 
+                 "data":{  
+                    "id":68,
+                    "NodeType" : "class2",
+                    "title":"class2 Conversion of Money"
+                 }
+              },
+              { 
+                 "data":{  
+                    "id":69,
+                    "NodeType" : "class2",
+                    "title":"class2 Adding and Subtracting Money"
+                 }
+              },
+              { 
+                 "data":{  
+                    "id":70,
+                    "NodeType" : "class2",
+                    "title":"class2 Word Problems involving Money"
                  }
               }
              
     ],
     "edges": [
+      {
+            "data": {
+                "id": "66_67",
+                "NodeType" : "class2",
+                "source": 66,
+                "target": 67
+            }
+        },
+        {
+            "data": {
+                "id": "66_68",
+                "NodeType" : "class2",
+                "source": 66,
+                "target": 68
+            }
+        },
+        {
+            "data": {
+                "id": "70_69",
+                "NodeType" : "class2",
+                "source": 70,
+                "target": 69
+            }
+        },
+        {
+            "data": {
+                "id": "68-70",
+                "NodeType" : "class2",
+                "source": 68,
+                "target": 70
+            }
+        },
         {
             "data": {
                 "id": "0_1",
+                "NodeType" : "class1",
                 "source": 0,
                 "target": 1
             }
@@ -411,6 +545,7 @@
         {
             "data": {
                 "id": "0_2",
+                "NodeType" : "class1",
                 "source": 0,
                 "target": 2
             }
@@ -418,6 +553,7 @@
         {
             "data": {
                 "id": "19_3",
+                "NodeType" : "class1",
                 "source": 19,
                 "target": 3
             }
@@ -425,6 +561,7 @@
         {
             "data": {
                 "id": "22_4",
+                "NodeType" : "class1",
                 "source": 22,
                 "target": 4
             }
@@ -432,6 +569,7 @@
         {
             "data": {
                 "id": "3_4",
+                "NodeType" : "class1",
                 "source": 3,
                 "target": 4
             }
@@ -439,6 +577,7 @@
         {
             "data": {
                 "id": "4_5",
+                "NodeType" : "class1",
                 "source": 4,
                 "target": 5
             }
@@ -446,6 +585,7 @@
         {
             "data": {
                 "id": "4_6",
+                "NodeType" : "class1",
                 "source": 4,
                 "target": 6
             }
@@ -453,6 +593,7 @@
         {
             "data": {
                 "id": "5_6",
+                "NodeType" : "class1",
                 "source": 5,
                 "target": 6
             }
@@ -460,6 +601,7 @@
         {
             "data": {
                 "id": "4_7",
+                "NodeType" : "class1",
                 "source": 4,
                 "target": 7
             }
@@ -467,6 +609,7 @@
         {
             "data": {
                 "id": "5_7",
+                "NodeType" : "class1",
                 "source": 5,
                 "target": 7
             }
@@ -474,6 +617,7 @@
         {
             "data": {
                 "id": "4_8",
+                "NodeType" : "class1",
                 "source": 4,
                 "target": 8
             }
@@ -481,6 +625,7 @@
         {
             "data": {
                 "id": "5_8",
+                "NodeType" : "class1",
                 "source": 5,
                 "target": 8
             }
@@ -488,6 +633,7 @@
         {
             "data": {
                 "id": "4_9",
+                "NodeType" : "class1",
                 "source": 4,
                 "target": 9
             }
@@ -495,6 +641,7 @@
         {
             "data": {
                 "id": "4_10",
+                "NodeType" : "class1",
                 "source": 4,
                 "target": 10
             }
@@ -502,6 +649,7 @@
         {
             "data": {
                 "id": "5_10",
+                "NodeType" : "class1",
                 "source": 5,
                 "target": 10
             }
@@ -509,6 +657,7 @@
         {
             "data": {
                 "id": "19_11",
+                "NodeType" : "class1",
                 "source": 19,
                 "target": 11
             }
@@ -516,6 +665,7 @@
         {
             "data": {
                 "id": "22_12",
+                "NodeType" : "class1",
                 "source": 22,
                 "target": 12
             }
@@ -523,6 +673,7 @@
         {
             "data": {
                 "id": "11_12",
+                "NodeType" : "class1",
                 "source": 11,
                 "target": 12
             }
@@ -530,6 +681,7 @@
         {
             "data": {
                 "id": "12_13",
+                "NodeType" : "class1",
                 "source": 12,
                 "target": 13
             }
@@ -537,6 +689,7 @@
         {
             "data": {
                 "id": "12_14",
+                "NodeType" : "class1",
                 "source": 12,
                 "target": 14
             }
@@ -544,6 +697,7 @@
         {
             "data": {
                 "id": "11_15",
+                "NodeType" : "class1",
                 "source": 11,
                 "target": 15
             }
@@ -551,6 +705,7 @@
         {
             "data": {
                 "id": "12_15",
+                "NodeType" : "class1",
                 "source": 12,
                 "target": 15
             }
@@ -558,6 +713,7 @@
         {
             "data": {
                 "id": "11_16",
+                "NodeType" : "class1",
                 "source": 11,
                 "target": 16
             }
@@ -565,6 +721,7 @@
         {
             "data": {
                 "id": "12_16",
+                "NodeType" : "class1",
                 "source": 12,
                 "target": 16
             }
@@ -572,6 +729,7 @@
         {
             "data": {
                 "id": "12_17",
+                "NodeType" : "class1",
                 "source": 12,
                 "target": 17
             }
@@ -579,6 +737,7 @@
         {
             "data": {
                 "id": "12_18",
+                "NodeType" : "class1",
                 "source": 12,
                 "target": 18
             }
@@ -586,6 +745,7 @@
         {
             "data": {
                 "id": "13_18",
+                "NodeType" : "class1",
                 "source": 13,
                 "target": 18
             }
@@ -593,6 +753,7 @@
         {
             "data": {
                 "id": "19_20",
+                "NodeType" : "class1",
                 "source": 19,
                 "target": 20
             }
@@ -600,6 +761,7 @@
         {
             "data": {
                 "id": "19_21",
+                "NodeType" : "class1",
                 "source": 19,
                 "target": 21
             }
@@ -607,6 +769,7 @@
         {
             "data": {
                 "id": "22_21",
+                "NodeType" : "class1",
                 "source": 22,
                 "target": 21
             }
@@ -614,6 +777,7 @@
         {
             "data": {
                 "id": "19_22",
+                "NodeType" : "class1",
                 "source": 19,
                 "target": 22
             }
@@ -621,6 +785,7 @@
         {
             "data": {
                 "id": "22_23",
+                "NodeType" : "class1",
                 "source": 22,
                 "target": 23
             }
@@ -628,6 +793,7 @@
         {
             "data": {
                 "id": "22_24",
+                "NodeType" : "class1",
                 "source": 22,
                 "target": 24
             }
@@ -635,6 +801,7 @@
         {
             "data": {
                 "id": "24_25",
+                "NodeType" : "class1",
                 "source": 24,
                 "target": 25
             }
@@ -642,6 +809,7 @@
         {
             "data": {
                 "id": "19_26",
+                "NodeType" : "class1",
                 "source": 19,
                 "target": 26
             }
@@ -649,6 +817,7 @@
         {
             "data": {
                 "id": "27_28",
+                "NodeType" : "class1",
                 "source": 27,
                 "target": 28
             }
@@ -656,6 +825,7 @@
         {
             "data": {
                 "id": "23_30",
+                "NodeType" : "class1",
                 "source": 23,
                 "target": 30
             }
@@ -663,6 +833,7 @@
         {
             "data": {
                 "id": "30_31",
+                "NodeType" : "class1",
                 "source": 30,
                 "target": 31
             }
@@ -670,6 +841,7 @@
         {
             "data": {
                 "id": "30_33",
+                "NodeType" : "class1",
                 "source": 30,
                 "target": 33
             }
@@ -677,6 +849,7 @@
         {
             "data": {
                 "id": "31_33",
+                "NodeType" : "class1",
                 "source": 31,
                 "target": 33
             }
@@ -684,6 +857,7 @@
         {
             "data": {
                 "id": "32_33",
+                "NodeType" : "class1",
                 "source": 32,
                 "target": 33
             }
@@ -691,6 +865,7 @@
         {
             "data": {
                 "id": "23_36",
+                "NodeType" : "class1",
                 "source": 23,
                 "target": 36
             }
@@ -698,6 +873,7 @@
         {
             "data": {
                 "id": "36_37",
+                "NodeType" : "class1",
                 "source": 36,
                 "target": 37
             }
@@ -705,6 +881,7 @@
         {
             "data": {
                 "id": "36_39",
+                "NodeType" : "class1",
                 "source": 36,
                 "target": 39
             }
@@ -712,6 +889,7 @@
         {
             "data": {
                 "id": "37_39",
+                "NodeType" : "class1",
                 "source": 37,
                 "target": 39
             }
@@ -719,6 +897,7 @@
         {
             "data": {
                 "id": "38_39",
+                "NodeType" : "class1",
                 "source": 38,
                 "target": 39
             }
@@ -726,6 +905,7 @@
         {
             "data": {
                 "id": "41_42",
+                "NodeType" : "class1",
                 "source": 41,
                 "target": 42
             }
@@ -733,6 +913,7 @@
         {
             "data": {
                 "id": "41_43",
+                "NodeType" : "class1",
                 "source": 41,
                 "target": 43
             }
@@ -740,6 +921,7 @@
         {
             "data": {
                 "id": "41_44",
+                "NodeType" : "class1",
                 "source": 41,
                 "target": 44
             }
@@ -747,6 +929,7 @@
         {
             "data": {
                 "id": "41_44",
+                "NodeType" : "class1",
                 "source": 41,
                 "target": 44
             }
@@ -754,6 +937,7 @@
         {
             "data": {
                 "id": "43_46",
+                "NodeType" : "class1",
                 "source": 43,
                 "target": 46
             }
@@ -761,6 +945,7 @@
         {
             "data": {
                 "id": "44_46",
+                "NodeType" : "class1",
                 "source": 44,
                 "target": 46
             }
@@ -768,6 +953,7 @@
         {
             "data": {
                 "id": "45_46",
+                "NodeType" : "class1",
                 "source": 45,
                 "target": 46
             }
@@ -775,6 +961,7 @@
         {
             "data": {
                 "id": "43_50",
+                "NodeType" : "class1",
                 "source": 43,
                 "target": 50
             }
@@ -782,6 +969,7 @@
         {  
           "data": {
                "id": "50_51",
+               "NodeType" : "class1",
                "source":50,
                "target":51
             }
@@ -789,6 +977,7 @@
         {  
           "data": {
                 "id": "47_53",
+                "NodeType" : "class1",
                "source":47,
                "target":53
             }
@@ -796,6 +985,7 @@
         {  
           "data": {
                 "id": "48_51",
+                "NodeType" : "class1",
                "source":48,
                "target":51
             }
@@ -803,6 +993,7 @@
         {  
           "data": {
                "id": "52_55",
+               "NodeType" : "class1",
                "source":52,
                "target":55
             }
@@ -810,6 +1001,7 @@
         {  
           "data": {
                 "id": "53_55",
+                "NodeType" : "class1",
                "source":53,
                "target":55
             }
@@ -817,6 +1009,7 @@
         {  
           "data": {
                 "id": "54_55",
+                "NodeType" : "class1",
                "source":54,
                "target":55
             }
@@ -824,6 +1017,7 @@
         {  
           "data": {
             "id": "47_56",
+            "NodeType" : "class1",
                "source":47,
                "target":56
             }
@@ -831,6 +1025,7 @@
         {  
           "data": {
             "id": "48_56",
+            "NodeType" : "class1",
                "source":48,
                "target":56
             }
@@ -838,6 +1033,7 @@
         {  
           "data": {
             "id": "47_57",
+            "NodeType" : "class1",
                "source":47,
                "target":57
             }
@@ -845,6 +1041,7 @@
         {  
           "data": {
             "id": "48_57",
+            "NodeType" : "class1",
                "source":48,
                "target":57
             }
@@ -852,13 +1049,15 @@
         {  
           "data": {
             "id": "56_58",
+            "NodeType" : "class1",
                "source":56,
                "target":58
             }
         },
         {  
           "data": {
-            "id": "56_59",
+              "id": "56_59",
+              "NodeType" : "class1",
                "source":56,
                "target":59
             }
@@ -866,6 +1065,7 @@
         {  
           "data": {
             "id": "57_60",
+            "NodeType" : "class1",
                "source":57,
                "target":60
             }
@@ -873,6 +1073,7 @@
         {  
           "data": {
             "id": "56_61",
+            "NodeType" : "class1",
                "source":56,
                "target":61
             }
@@ -881,6 +1082,7 @@
         {  
           "data": {
                 "id": "62_63",
+                "NodeType" : "class1",
                 "source":62,
                 "target":63
             }
@@ -888,6 +1090,7 @@
         {  
           "data": {
                 "id": "62_64",
+                "NodeType" : "class1",
                 "source":62,
                 "target":64
             }
@@ -895,6 +1098,7 @@
         {  
           "data": {
                 "id": "62_65",
+                "NodeType" : "class1",
                 "source":62,
                 "target":65
             }
@@ -902,6 +1106,7 @@
         {  
           "data": {
                 "id": "63_65",
+                "NodeType" : "class1",
                 "source":63,
                 "target":65
            }
@@ -909,6 +1114,7 @@
         {  
           "data": {
                 "id": "64_65",
+                "NodeType" : "class1",
                 "source":64,
                 "target":65
            }

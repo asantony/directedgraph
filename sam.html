@@ -1,38 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>D3Graph</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	
-	<link href="css/sma.css" rel="stylesheet">
-	<link href="css/cystoscapestyle.css" rel="stylesheet">
-	
-	<script src='js/jquery-3.2.1.min.js'></script>
-	<script src='js/bootstrap.min.js'></script>
-	<script src='js/cytoscape.js'></script>
-	<script src='js/dirgraph.js'></script>
-
-	
-</head>
-<body>
-	<div class="navbar navbar-default navbar-fixed-top headnav" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
-				<span class="icon-bar"></span><span class="icon-bar"></span></button>
-				<a class="navbar-brand titletxt" href="#" style="margin-left: 15px;">Directed Graph</a>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
 				<object id="logoimg" type="image/svg+xml" data="images/H-logo.svg">Your browser does not support SVG</object>
-				
-				</div>
-				<div class="navbar-collapse collapse navbar-right">
-					<ul class="nav navbar-nav">
-
-						<li><a class="refressico"><button type="button" class="btn btn-default">
-						<span class="glyphicon glyphicon-refresh"></span></button></a></li>
-
-
+				<a class="navbar-brand" href="#" style="margin-left: 15px;">Directed Graph</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Refresh
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
 						<li class="nav-item" id="filter">
 							<div class="btn-group" role="group" aria-label="...">
 								<div class="btn-group">
@@ -58,7 +37,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="nav-item" id="searchitem">
+						<li class="nav-item">
 							<div class="right-inner-addon">
 								<!-- <i class="icon-search"></i> -->
 								<input type="search"
@@ -66,14 +45,12 @@
 								placeholder="Search" id="myInput" onkeyup="myFunction()" onchange="makeempty"/>
 							</div>
 						</li>
+
 					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 
 		<div class="container-fluid" id="header">
 			<div id="cy"></div>
 		</div>
-
-	</body>
-	</html>
